@@ -2,6 +2,9 @@
 # system.prop for msm8953-common
 #
 
+#FIFO UI
+sys.use_fifo_ui=1
+
 # ART
 PRODUCT_PROPERTY_OVERRIDES += \
 dalvik.vm.dex2oat-filter=speed \
