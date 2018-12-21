@@ -338,27 +338,13 @@ vendor/lib64/libvpplibrary.so
 vendor/lib/libwms.so
 vendor/lib64/libwms.so
 
-# Perf
-lib/vendor.qti.hardware.perf@1.0.so
-lib64/vendor.qti.hardware.perf@1.0.so
-vendor/bin/energy-awareness
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
+# msm_irqbalance - from tissot
 vendor/bin/msm_irqbalance
-vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml|07bb8d519b4d7ec905429772fef6c0577082d0af
-vendor/lib/libperfgluelayer.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib/vendor.qti.hardware.perf@1.0.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/vendor.qti.hardware.perf@1.0.so
+
+# Perf from - from wahoo
+vendor/lib/libqti-perfd-client.so|f277daf9632b4d4c22a27abec2c4d0ccf776892d
+vendor/lib64/libqti-perfd-client.so|eaf678de5d7d0de194a263db1835b1f582452419
+vendor/lib64/libperfmgr.so|c3dd666accc3831b081429f283b767b79025979
 
 # Peripheral manager
 vendor/bin/pm-proxy
