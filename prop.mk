@@ -10,10 +10,7 @@ ro.lmk.critical=0 \
 ro.lmk.critical_upgrade=false \
 ro.lmk.upgrade_pressure=100 \
 ro.lmk.downgrade_pressure=100 \
-ro.lmk.kill_heaviest_task=true 
-
-#FIFO UI
-sys.use_fifo_ui=1
+ro.lmk.kill_heaviest_task=true
 
 # ART
 PRODUCT_PROPERTY_OVERRIDES += \
