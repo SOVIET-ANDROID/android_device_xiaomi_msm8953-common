@@ -86,7 +86,6 @@ persist.debug.coresight.config=stm-events
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.egl.hw=0 \
 debug.enable.sglscale=1 \
-debug.gralloc.enable_fb_ubwc=1 \
 debug.mdpcomp.logs=0 \
 debug.sf.hw=0 \
 dev.pm.dyn_samplingrate=1 \
@@ -97,9 +96,12 @@ persist.hwc.mdpcomp.enable=true \
 ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
 ro.sf.lcd_density=420 \
-sdm.debug.disable_skip_validate=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
-vendor.display.disable_skip_validate=1
+vendor.display.disable_skip_validate=1 \
+vendor.display.rotator_downscale=1 \
+vendor.display.perf_hint_window=50 \
+sdm.debug.disable_rotator_split=1 \
+sdm.perf_hint_window=50
 
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -166,6 +168,10 @@ persist.rild.nitz_short_ons_1="" \
 persist.rild.nitz_short_ons_2="" \
 persist.rild.nitz_short_ons_3=""
 
+# Property to enable display default color mode
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.display.enable_default_color_mode=0
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
 DEVICE_PROVISIONED=1 \
@@ -209,3 +215,7 @@ persist.sys.usb.config.extra=none
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
+
+# Fix Cast/Miracast
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.wfd.virtual=0
