@@ -258,13 +258,13 @@ vendor/lib/libsdm-color.so|418a070bc1e845f0268ffb2f627af8fcddc437f2
 vendor/lib/libsdm-diag.so|e0455e9dd0e2378a3f770eb914aa11e612d594eb
 vendor/lib/libsdm-disp-apis.so|5c7e946cfa654f533d481970da9b3d2e0c181161
 -vendor/lib/libsdm-disp-vndapis.so|31b8df32d8091ef0390352b118e59bbde3d4acc1
-vendor/lib/libsdmextension.so|65efe8438a4b6634e7bdfc656fe72e4b8db30ec6
+vendor/lib/libsdmextension.so|6c7e1a318e47c1b009ea1a9c61bdbfdc68cd10c4
 vendor/lib/libtinyxml2_1.so|20fea724b7a9f94530833cfdc841049104a0ffa3
 vendor/lib64/libsdm-color.so|5c8cda1e79cd46cd29e45d689017e24a440800b7
 vendor/lib64/libsdm-diag.so|25bab19a8c4453b3d20e3e1a71a0e8d3675b17b4
 vendor/lib64/libsdm-disp-apis.so|c6681b458123832bb6f4015fd3e24032d5b2eff8
 -vendor/lib64/libsdm-disp-vndapis.so|6b0ee25367d386ccc1b42ea941f1da439a48b3ec
-vendor/lib64/libsdmextension.so|616b323d407e002035849a8674f1b0efb3390725
+vendor/lib64/libsdmextension.so|040bca52cc5e1a12914ebbcac39be1d36b98adca
 vendor/lib64/libtinyxml2_1.so|9d5179eda8ce70b9a4014b144f9d23d33509fddc
 
 # Vulkan
@@ -335,6 +335,9 @@ vendor/lib64/libvpplibrary.so
 # Modem
 vendor/lib/libwms.so
 vendor/lib64/libwms.so
+
+# msm_irqbalance - from daisy-user 9 PKQ1.180917.001 
+vendor/bin/msm_irqbalance|bf933b58332cf94fe4a2072bc3e976a6a82efe3c
 
 # Perf from - from daisy - PKQ1.180917.001
 lib/vendor.qti.hardware.iop@1.0.so|01bded5f912ff47f6bddcdf362af3b8b06090de1
@@ -592,7 +595,7 @@ vendor/lib/libwvhidl.so
 vendor/bin/wcnss_service
 
 #QTI Performance libs - from daisy - PKQ1.180917.001
--framework/QPerformance.jar
+-framework/QPerformance.jar|39137f7071d36e659fcad68e59be5d0570568842
 -framework/UxPerformance.jar|0e3babfa37e2368aee16de3d6f8cdea06e081dea
 bin/perfservice|03d6368017d4c41f7fea647c669b69d6567238af
 etc/init/perfservice.rc|67144c3f1800f976cb58463c4370882d2d820947
