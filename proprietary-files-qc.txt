@@ -367,7 +367,6 @@ vendor/lib/libperipheral_client.so|27b655cf18a1282594e5c91376b705fe31db6dab
 # Postprocessing
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
-lib/libstagefright_soft_flacdec.so
 -lib/vendor.display.color@1.0.so
 lib/vendor.display.postproc@1.0.so
 lib/vendor.qti.hardware.qdutils_disp@1.0.so
@@ -381,12 +380,10 @@ vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/lib/libdisp-aba.so
 vendor/lib/vendor.display.color@1.0.so
-vendor/lib/vendor.display.color@1.1.so
 vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/libdisp-aba.so
 vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
