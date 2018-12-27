@@ -336,9 +336,6 @@ vendor/lib64/libvpplibrary.so
 vendor/lib/libwms.so
 vendor/lib64/libwms.so
 
-# msm_irqbalance - from daisy-user 9 PKQ1.180917.001 
-vendor/bin/msm_irqbalance|bf933b58332cf94fe4a2072bc3e976a6a82efe3c
-
 # Perf from - from daisy - PKQ1.180917.001
 lib/vendor.qti.hardware.iop@1.0.so|01bded5f912ff47f6bddcdf362af3b8b06090de1
 lib/vendor.qti.hardware.iop@2.0.so|f7c21407cec3cebdbcd49e6dd0932893e25e2eb4
