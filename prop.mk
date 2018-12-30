@@ -95,6 +95,7 @@ ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
 ro.sf.lcd_density=420 \
 vendor.gralloc.enable_fb_ubwc=1 \
+vendor.gralloc.disable_wb_ubwc=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.display.rotator_downscale=1 \
 vendor.display.perf_hint_window=50 \

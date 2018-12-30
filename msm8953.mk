@@ -102,6 +102,7 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
+    libaacwrapper
     tinymix
 
 # Audio configuration
