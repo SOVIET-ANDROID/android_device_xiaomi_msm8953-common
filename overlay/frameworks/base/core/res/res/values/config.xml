@@ -492,4 +492,7 @@
     <integer name="config_num_physical_slots">2</integer>
 
     <bool name="config_oldQtiTelephony">false</bool>
+
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 </resources>
