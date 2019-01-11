@@ -266,15 +266,15 @@ vendor/lib64/libscalar.so
 
 # Graphics (SDM) - from D1C - PKQ1.181105.001 00CN_6_120
 vendor/lib/libsdm-color.so|78745aee29ebaf1b29e51a7e4de4a8f6559e155f
-vendor/lib/libsdm-diag.so
+vendor/lib/libsdm-diag.so|e2e3a0fba39190c58bafa0568e8cd51b391b71b6
 -vendor/lib/libsdm-disp-vndapis.so|6c4233ea3676643bc9658c25cfad7edd45c49362
 vendor/lib/libsdmextension.so|b7dc9bf5af1f0e528653db6ff055a0050b9ff556
-vendor/lib/libtinyxml2_1.so
+vendor/lib/libtinyxml2_1.so|3882fddae942997be6ad6af789cf209fa45e61b3
 vendor/lib64/libsdm-color.so|a1af37dd56eea852759efe3aa213df3bd3c00daf
-vendor/lib64/libsdm-diag.so
+vendor/lib64/libsdm-diag.so|87a4f764e894f16246c9a0d6e3f5885df76b750b
 -vendor/lib64/libsdm-disp-vndapis.so|3ceb59b68f3057f2297af9f4badac07ef1da1008
 vendor/lib64/libsdmextension.so|fd0c55fb27df93a36affccba87843fe50a246719
-vendor/lib64/libtinyxml2_1.so
+vendor/lib64/libtinyxml2_1.so|b225b16e689e7e4c26fc6144637f6b0c416063f8
 
 # Graphics firmware
 vendor/firmware/a506_zap.b00
@@ -339,12 +339,12 @@ vendor/lib/libwms.so
 vendor/lib64/libwms.so
 
 # msm_irqbalance - from tissot
-vendor/bin/msm_irqbalance
+vendor/bin/msm_irqbalance|bf933b58332cf94fe4a2072bc3e976a6a82efe3c
 
 # Perf from - from wahoo
 vendor/lib/libqti-perfd-client.so|f277daf9632b4d4c22a27abec2c4d0ccf776892d
 vendor/lib64/libqti-perfd-client.so|eaf678de5d7d0de194a263db1835b1f582452419
-vendor/lib64/libperfmgr.so|c3dd666accc3831b081429f283b767b79025979
+vendor/lib64/libperfmgr.so|c3dd666accc3831b081429f283b767b79025979f
 
 # Peripheral manager
 vendor/bin/pm-proxy
